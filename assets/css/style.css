@@ -121,3 +121,62 @@ footer {
 .footer{
   flex-shrink: 0;
 }
+
+
+@media only screen and (max-width: 980px) {
+  body {
+    /*simply changing colors so we know stuff is working */
+    background: red;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+
+    /*simply changing colors so we know stuff is working */
+    background: yellow;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+ 
+    header {
+      position: static;
+    }
+
+    .container{
+      width:95%;
+      margin:auto;
+      overflow:hidden;
+      background-color:#ffffff;
+      padding: 10px;
+    
+    }
+    /*simply changing colors so we know stuff is working */
+    body {
+      background: green;
+    }    
+
+  header li{
+    padding: 0 5px 0 5px;
+    width: 100%;
+    text-align: center;
+  }
+
+  header #name{
+    width: 100%;
+    text-align: center
+  }
+  nav{
+    width: 100%;
+    text-align: center;
+  }
+
+  .flex-container{
+
+  width: 100%;
+
+  }
+
+
+}
